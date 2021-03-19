@@ -16,6 +16,10 @@
 
 ---
 
+## v2.6.3
+
+- remove local file check when init datadogRum client
+
 ## v2.6.2
 
 - 🐛 [RUMF-862] fix export MediaInteractions enum ([#761](https://github.com/DataDog/browser-sdk/pull/761))

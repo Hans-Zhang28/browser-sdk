@@ -2,35 +2,35 @@
 # yarn lockfile v1
 
 
-"@vidyard/browser-core@2.6.3", "@vidyard/browser-core@file:../../packages/core":
-  version "2.6.3"
+"@vidyard/browser-core@2.6.4", "@vidyard/browser-core@file:../../packages/core":
+  version "2.6.4"
   dependencies:
     tslib "^1.10.0"
 
 "@vidyard/browser-logs@file:../../packages/logs":
-  version "2.6.3"
+  version "2.6.4"
   dependencies:
-    "@vidyard/browser-core" "2.6.3"
+    "@vidyard/browser-core" "2.6.4"
     tslib "^1.10.0"
 
-"@vidyard/browser-rum-core@2.6.3", "@vidyard/browser-rum-core@file:../../packages/rum-core":
-  version "2.6.3"
+"@vidyard/browser-rum-core@2.6.4", "@vidyard/browser-rum-core@file:../../packages/rum-core":
+  version "2.6.4"
   dependencies:
-    "@vidyard/browser-core" "2.6.3"
+    "@vidyard/browser-core" "2.6.4"
     tslib "^1.10.0"
 
 "@vidyard/browser-rum-recorder@file:../../packages/rum-recorder":
-  version "2.6.3"
+  version "2.6.4"
   dependencies:
-    "@vidyard/browser-core" "2.6.3"
-    "@vidyard/browser-rum-core" "2.6.3"
+    "@vidyard/browser-core" "2.6.4"
+    "@vidyard/browser-rum-core" "2.6.4"
     tslib "^1.10.0"
 
 "@vidyard/browser-rum@file:../../packages/rum":
-  version "2.6.3"
+  version "2.6.4"
   dependencies:
-    "@vidyard/browser-core" "2.6.3"
-    "@vidyard/browser-rum-core" "2.6.3"
+    "@vidyard/browser-core" "2.6.4"
+    "@vidyard/browser-rum-core" "2.6.4"
     tslib "^1.10.0"
 
 "@webassemblyjs/ast@1.8.5":
@@ -471,7 +471,7 @@ cacache@^12.0.2:
     mkdirp "^0.5.1"
     move-concurrently "^1.0.1"
     promise-inflight "^1.0.1"
-    rimraf "^2.6.3"
+    rimraf "^2.6.4"
     ssri "^6.0.1"
     unique-filename "^1.1.1"
     y18n "^4.0.0"
@@ -1837,7 +1837,7 @@ ret@~0.1.10:
   resolved "https://registry.yarnpkg.com/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
   integrity sha512-TTlYpa+OL+vMMNG24xSlQGEJ3B/RzEfUlLct7b5G/ytav+wPrplCpVMFuwzXbkecJrb6IYo1iFb0S9v37754mg==
 
-rimraf@^2.5.4, rimraf@^2.6.3:
+rimraf@^2.5.4, rimraf@^2.6.4:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.7.1.tgz#35797f13a7fdadc566142c29d4f07ccad483e3ec"
   integrity sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==

@@ -16,6 +16,10 @@
 
 ---
 
+## v2.6.4
+
+
+
 ## v2.6.3
 
 - remove local file check when init datadogRum client

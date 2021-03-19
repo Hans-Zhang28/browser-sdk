@@ -2,7 +2,6 @@ import {
   BoundedBuffer,
   buildCookieOptions,
   checkCookiesAuthorized,
-  checkIsNotLocalFile,
   Context,
   createContextManager,
   deepClone,
@@ -63,7 +62,6 @@ export function makeRumPublicApi(startRumImpl: StartRum) {
     init: monitor((userConfiguration: RumUserConfiguration) => {
       if (
         !checkCookiesAuthorized(buildCookieOptions(userConfiguration)) ||
-        !checkIsNotLocalFile() ||
         !canInitRum(userConfiguration)
       ) {
         return

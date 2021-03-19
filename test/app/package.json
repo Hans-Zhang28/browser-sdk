@@ -7,13 +7,13 @@
     "compat:ssr": "webpack --mode=development && node dist/app.js"
   },
   "dependencies": {
-    "@datadog/browser-logs": "file:../../packages/logs",
-    "@datadog/browser-rum-recorder": "file:../../packages/rum-recorder"
+    "@vidyard/browser-logs": "file:../../packages/logs",
+    "@vidyard/browser-rum-recorder": "file:../../packages/rum-recorder"
   },
   "resolutions": {
-    "@datadog/browser-core": "file:../../packages/core",
-    "@datadog/browser-rum-core": "file:../../packages/rum-core",
-    "@datadog/browser-rum": "file:../../packages/rum"
+    "@vidyard/browser-core": "file:../../packages/core",
+    "@vidyard/browser-rum-core": "file:../../packages/rum-core",
+    "@vidyard/browser-rum": "file:../../packages/rum"
   },
   "devDependencies": {
     "ts-loader": "6.2.1",

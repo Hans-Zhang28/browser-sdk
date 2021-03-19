@@ -1,5 +1,5 @@
 {
-  "name": "@datadog/browser-rum-recorder",
+  "name": "@vidyard/browser-rum-recorder",
   "version": "2.6.3",
   "license": "Apache-2.0",
   "main": "cjs/index.js",
@@ -12,8 +12,8 @@
     "build:esm": "rm -rf esm && tsc -p tsconfig.esm.json"
   },
   "dependencies": {
-    "@datadog/browser-core": "^2.6.3",
-    "@datadog/browser-rum-core": "^2.6.3",
+    "@vidyard/browser-core": "^2.6.3",
+    "@vidyard/browser-rum-core": "^2.6.3",
     "tslib": "^1.10.0"
   },
   "repository": {

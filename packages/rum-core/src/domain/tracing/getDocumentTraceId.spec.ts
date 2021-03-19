@@ -1,4 +1,4 @@
-import { TimeStamp } from '@datadog/browser-core'
+import { TimeStamp } from '@vidyard/browser-core'
 import {
   createDocumentTraceData,
   findTraceComment,

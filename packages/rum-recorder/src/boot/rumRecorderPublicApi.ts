@@ -1,5 +1,5 @@
-import { monitor } from '@datadog/browser-core'
-import { makeRumPublicApi, StartRum } from '@datadog/browser-rum-core'
+import { monitor } from '@vidyard/browser-core'
+import { makeRumPublicApi, StartRum } from '@vidyard/browser-rum-core'
 
 import { startRecording } from './recorder'
 

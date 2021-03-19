@@ -1,4 +1,4 @@
-import { addMonitoringMessage, addErrorToMonitoringBatch, monitor } from '@datadog/browser-core'
+import { addMonitoringMessage, addErrorToMonitoringBatch, monitor } from '@vidyard/browser-core'
 import { SegmentMeta } from '../types'
 import { DeflateWorker } from './deflateWorker'
 import { SegmentWriter } from './segment'

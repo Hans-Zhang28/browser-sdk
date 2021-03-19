@@ -1,4 +1,4 @@
-import { Context, monitor, ONE_SECOND } from '@datadog/browser-core'
+import { Context, monitor, ONE_SECOND } from '@vidyard/browser-core'
 
 import { HandlerType, LogsMessage, StatusType } from '../domain/logger'
 import { LogsPublicApi, makeLogsPublicApi, StartLogs } from './logs.entry'

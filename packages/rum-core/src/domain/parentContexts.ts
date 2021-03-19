@@ -1,4 +1,4 @@
-import { monitor, ONE_MINUTE, RelativeTime, SESSION_TIME_OUT_DELAY } from '@datadog/browser-core'
+import { monitor, ONE_MINUTE, RelativeTime, SESSION_TIME_OUT_DELAY } from '@vidyard/browser-core'
 import { ActionContext, ViewContext } from '../rawRumEvent.types'
 import { LifeCycle, LifeCycleEventType } from './lifeCycle'
 import { AutoAction, AutoActionCreatedEvent } from './rumEventsCollection/action/trackActions'

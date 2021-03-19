@@ -15,7 +15,7 @@ import {
   RelativeTime,
   startAutomaticErrorCollection,
   UserConfiguration,
-} from '@datadog/browser-core'
+} from '@vidyard/browser-core'
 import { Logger, LogsMessage } from '../domain/logger'
 import { LoggerSession, startLoggerSession } from '../domain/loggerSession'
 import { LogsEvent } from '../logsEvent.types'

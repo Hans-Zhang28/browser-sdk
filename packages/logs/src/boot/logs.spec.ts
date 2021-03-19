@@ -8,7 +8,7 @@ import {
   Observable,
   RawError,
   RelativeTime,
-} from '@datadog/browser-core'
+} from '@vidyard/browser-core'
 import sinon from 'sinon'
 
 import { Logger, LogsMessage, StatusType } from '../domain/logger'

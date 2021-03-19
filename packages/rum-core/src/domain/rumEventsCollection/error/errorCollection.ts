@@ -8,7 +8,7 @@ import {
   RawError,
   RelativeTime,
   startAutomaticErrorCollection,
-} from '@datadog/browser-core'
+} from '@vidyard/browser-core'
 import { CommonContext, RawRumErrorEvent, RumEventType } from '../../../rawRumEvent.types'
 import { LifeCycle, LifeCycleEventType } from '../../lifeCycle'
 

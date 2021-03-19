@@ -1,4 +1,4 @@
-import { isIE } from '@datadog/browser-core'
+import { isIE } from '@vidyard/browser-core'
 import { serializeNodeWithId, SerializedNodeWithId, IdNodeMap } from '../rrweb-snapshot'
 import { MutationObserverWrapper, MutationController } from './mutation'
 import { MutationCallBack } from './types'

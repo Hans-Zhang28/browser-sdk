@@ -1,4 +1,4 @@
-import { getTimeStamp, toServerDuration } from '@datadog/browser-core'
+import { getTimeStamp, toServerDuration } from '@vidyard/browser-core'
 import { RawRumLongTaskEvent, RumEventType } from '../../../rawRumEvent.types'
 import { LifeCycle, LifeCycleEventType } from '../../lifeCycle'
 

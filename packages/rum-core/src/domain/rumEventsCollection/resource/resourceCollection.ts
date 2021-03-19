@@ -1,4 +1,4 @@
-import { combine, generateUUID, getTimeStamp, RequestType, ResourceType, toServerDuration } from '@datadog/browser-core'
+import { combine, generateUUID, getTimeStamp, RequestType, ResourceType, toServerDuration } from '@vidyard/browser-core'
 import { RumPerformanceResourceTiming } from '../../../browser/performanceCollection'
 import { RawRumResourceEvent, RumEventType } from '../../../rawRumEvent.types'
 import { LifeCycle, LifeCycleEventType } from '../../lifeCycle'

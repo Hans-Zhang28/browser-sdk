@@ -8,7 +8,7 @@ import {
   isPercentage,
   makePublicApi,
   monitor,
-} from '@datadog/browser-core'
+} from '@vidyard/browser-core'
 import { HandlerType, Logger, LogsMessage, StatusType } from '../domain/logger'
 import { startLogs, LogsUserConfiguration } from './logs'
 

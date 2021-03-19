@@ -1,4 +1,4 @@
-import { RumEvent } from '@datadog/browser-rum'
+import { RumEvent } from '@vidyard/browser-rum'
 import ajv from 'ajv'
 import rumEventsFormatJson from '../../../../rum-events-format/rum-events-format.json'
 import _commonSchemaJson from '../../../../rum-events-format/schemas/_common-schema.json'

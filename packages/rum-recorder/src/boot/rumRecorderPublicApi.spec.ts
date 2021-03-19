@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/unbound-method */
-import { Configuration } from '@datadog/browser-core'
-import { RumPublicApi, StartRum } from '@datadog/browser-rum-core'
+import { Configuration } from '@vidyard/browser-core'
+import { RumPublicApi, StartRum } from '@vidyard/browser-rum-core'
 import { makeRumRecorderPublicApi, StartRecording } from './rumRecorderPublicApi'
 
 const DEFAULT_INIT_CONFIGURATION = { applicationId: 'xxx', clientToken: 'xxx' }

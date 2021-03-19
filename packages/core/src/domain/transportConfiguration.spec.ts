@@ -1,4 +1,4 @@
-import { BuildEnv, BuildMode, Datacenter } from '@datadog/browser-core'
+import { BuildEnv, BuildMode, Datacenter } from '@vidyard/browser-core'
 import { computeTransportConfiguration } from './transportConfiguration'
 
 describe('transportConfiguration', () => {

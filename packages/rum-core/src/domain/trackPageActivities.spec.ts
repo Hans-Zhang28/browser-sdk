@@ -1,4 +1,4 @@
-import { noop, Observable, RelativeTime } from '@datadog/browser-core'
+import { noop, Observable, RelativeTime } from '@vidyard/browser-core'
 import { RumPerformanceNavigationTiming, RumPerformanceResourceTiming } from '../browser/performanceCollection'
 import { LifeCycle, LifeCycleEventType } from './lifeCycle'
 import { RequestCompleteEvent } from './requestCollection'

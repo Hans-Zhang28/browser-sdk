@@ -1,4 +1,4 @@
-import { Context, DOM_EVENT, RelativeTime } from '@datadog/browser-core'
+import { Context, DOM_EVENT, RelativeTime } from '@vidyard/browser-core'
 import { RumEvent } from '../../../../../rum/src'
 import { setup, TestSetupBuilder } from '../../../../test/specHelper'
 import { RumEventType, ActionType } from '../../../rawRumEvent.types'

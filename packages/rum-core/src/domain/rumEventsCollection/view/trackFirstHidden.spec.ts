@@ -4,7 +4,7 @@ import {
   RelativeTime,
   restorePageVisibility,
   setPageVisibility,
-} from '@datadog/browser-core'
+} from '@vidyard/browser-core'
 import { resetFirstHidden, trackFirstHidden } from './trackFirstHidden'
 
 describe('trackFirstHidden', () => {

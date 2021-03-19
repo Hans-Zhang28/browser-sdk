@@ -12,7 +12,7 @@ import {
   RelativeTime,
   runOnReadyState,
   TimeStamp,
-} from '@datadog/browser-core'
+} from '@vidyard/browser-core'
 import { LifeCycle, LifeCycleEventType } from '../domain/lifeCycle'
 import { FAKE_INITIAL_DOCUMENT, isAllowedRequestUrl } from '../domain/rumEventsCollection/resource/resourceUtils'
 

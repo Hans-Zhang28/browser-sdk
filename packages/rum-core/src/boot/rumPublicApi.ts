@@ -12,7 +12,7 @@ import {
   relativeNow,
   RelativeTime,
   UserConfiguration,
-} from '@datadog/browser-core'
+} from '@vidyard/browser-core'
 import { CustomAction } from '../domain/rumEventsCollection/action/trackActions'
 import { ProvidedError, ProvidedSource } from '../domain/rumEventsCollection/error/errorCollection'
 import { CommonContext, User, ActionType } from '../rawRumEvent.types'

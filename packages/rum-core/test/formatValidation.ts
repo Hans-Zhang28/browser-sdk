@@ -1,4 +1,4 @@
-import { Context } from '@datadog/browser-core'
+import { Context } from '@vidyard/browser-core'
 import ajv from 'ajv'
 import rumEventsFormatJson from '../../../rum-events-format/rum-events-format.json'
 import _commonSchemaJson from '../../../rum-events-format/schemas/_common-schema.json'

@@ -1,4 +1,4 @@
-import { isIE, RelativeTime } from '@datadog/browser-core'
+import { isIE, RelativeTime } from '@vidyard/browser-core'
 import { setup, TestSetupBuilder } from '../../test/specHelper'
 import { RumPerformanceNavigationTiming } from '../browser/performanceCollection'
 

@@ -11,7 +11,7 @@ import {
   stubFetch,
   stubXhr,
   withXhr,
-} from '@datadog/browser-core'
+} from '@vidyard/browser-core'
 import { LifeCycle, LifeCycleEventType } from './lifeCycle'
 import { RequestCompleteEvent, RequestStartEvent, trackFetch, trackXhr } from './requestCollection'
 import { clearTracingIfCancelled, Tracer } from './tracing/tracer'

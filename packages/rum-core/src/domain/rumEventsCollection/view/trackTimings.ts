@@ -6,7 +6,7 @@ import {
   elapsed,
   EventEmitter,
   RelativeTime,
-} from '@datadog/browser-core'
+} from '@vidyard/browser-core'
 import { LifeCycle, LifeCycleEventType } from '../../lifeCycle'
 import { trackFirstHidden } from './trackFirstHidden'
 

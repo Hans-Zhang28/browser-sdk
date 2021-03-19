@@ -1,4 +1,4 @@
-import { monitor, callMonitored, throttle, DOM_EVENT, addEventListeners, addEventListener } from '@datadog/browser-core'
+import { monitor, callMonitored, throttle, DOM_EVENT, addEventListeners, addEventListener } from '@vidyard/browser-core'
 import { INode } from '../rrweb-snapshot'
 import { nodeOrAncestorsShouldBeHidden, nodeOrAncestorsShouldHaveInputIgnored } from '../privacy'
 import { MutationObserverWrapper, MutationController } from './mutation'

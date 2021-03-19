@@ -1,4 +1,4 @@
-import { findCommaSeparatedValue, ONE_MINUTE, TimeStamp } from '@datadog/browser-core'
+import { findCommaSeparatedValue, ONE_MINUTE, TimeStamp } from '@vidyard/browser-core'
 
 interface DocumentTraceData {
   traceId: string

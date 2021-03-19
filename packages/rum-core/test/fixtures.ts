@@ -7,7 +7,7 @@ import {
   ResourceType,
   ServerDuration,
   TimeStamp,
-} from '@datadog/browser-core'
+} from '@vidyard/browser-core'
 import { RumPerformanceResourceTiming } from '../src/browser/performanceCollection'
 import { ActionType, RawRumEvent, RumEventType, ViewLoadingType } from '../src/rawRumEvent.types'
 

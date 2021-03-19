@@ -1,4 +1,4 @@
-import { Duration, RelativeTime, RequestType, ResourceType, ServerDuration, TimeStamp } from '@datadog/browser-core'
+import { Duration, RelativeTime, RequestType, ResourceType, ServerDuration, TimeStamp } from '@vidyard/browser-core'
 import { createResourceEntry } from '../../../../test/fixtures'
 import { setup, TestSetupBuilder } from '../../../../test/specHelper'
 import { RawRumResourceEvent, RumEventType } from '../../../rawRumEvent.types'

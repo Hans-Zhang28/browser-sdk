@@ -1,5 +1,5 @@
-import { LogsGlobal } from '@datadog/browser-logs'
-import { RumGlobal } from '@datadog/browser-rum'
+import { LogsGlobal } from '@vidyard/browser-logs'
+import { RumGlobal } from '@vidyard/browser-rum'
 
 declare global {
   interface Window {

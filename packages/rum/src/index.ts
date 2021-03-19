@@ -12,4 +12,4 @@ export {
   RumLongTaskEvent,
   RumResourceEvent,
   RumViewEvent,
-} from '@datadog/browser-rum-core'
+} from '@vidyard/browser-rum-core'

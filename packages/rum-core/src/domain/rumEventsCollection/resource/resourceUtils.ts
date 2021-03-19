@@ -9,7 +9,7 @@ import {
   ResourceType,
   ServerDuration,
   toServerDuration,
-} from '@datadog/browser-core'
+} from '@vidyard/browser-core'
 import { RumPerformanceResourceTiming } from '../../../browser/performanceCollection'
 
 import { PerformanceResourceDetailsElement } from '../../../rawRumEvent.types'

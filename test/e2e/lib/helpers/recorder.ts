@@ -4,7 +4,7 @@ import {
   ElementNode,
   TextNode,
   SerializedNodeWithId,
-} from '@datadog/browser-rum-recorder/cjs/domain/rrweb-snapshot/types'
+} from '@vidyard/browser-rum-recorder/cjs/domain/rrweb-snapshot/types'
 import {
   Segment,
   RecordType,
@@ -13,7 +13,7 @@ import {
   IncrementalSnapshotRecord,
   IncrementalSource,
   MutationData,
-} from '@datadog/browser-rum-recorder/cjs/types'
+} from '@vidyard/browser-rum-recorder/cjs/types'
 import { EventRegistry } from '../framework'
 
 // Returns this first MetaRecord in a Segment, if any.

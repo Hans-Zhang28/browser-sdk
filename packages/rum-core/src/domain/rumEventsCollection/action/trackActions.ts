@@ -7,7 +7,7 @@ import {
   generateUUID,
   relativeNow,
   RelativeTime,
-} from '@datadog/browser-core'
+} from '@vidyard/browser-core'
 import { LifeCycle, LifeCycleEventType } from '../../lifeCycle'
 import { EventCounts, trackEventCounts } from '../../trackEventCounts'
 import { waitIdlePageActivity } from '../../trackPageActivities'

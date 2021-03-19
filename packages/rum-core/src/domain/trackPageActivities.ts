@@ -1,4 +1,4 @@
-import { monitor, Observable, relativeNow, RelativeTime } from '@datadog/browser-core'
+import { monitor, Observable, relativeNow, RelativeTime } from '@vidyard/browser-core'
 import { LifeCycle, LifeCycleEventType, Subscription } from './lifeCycle'
 
 // Delay to wait for a page activity to validate the tracking process

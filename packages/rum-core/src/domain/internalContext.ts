@@ -1,4 +1,4 @@
-import { RelativeTime } from '@datadog/browser-core'
+import { RelativeTime } from '@vidyard/browser-core'
 import { InternalContext } from '../rawRumEvent.types'
 import { ParentContexts } from './parentContexts'
 import { RumSession } from './rumSession'

@@ -1,4 +1,4 @@
-import { runOnReadyState } from '@datadog/browser-core'
+import { runOnReadyState } from '@vidyard/browser-core'
 import { snapshot } from '../rrweb-snapshot'
 import { RawRecord, RecordType } from '../../types'
 import { initObservers } from './observer'

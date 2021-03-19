@@ -1,4 +1,4 @@
-import { combine, Context, ContextValue, createContextManager, ErrorSource, monitored } from '@datadog/browser-core'
+import { combine, Context, ContextValue, createContextManager, ErrorSource, monitored } from '@vidyard/browser-core'
 
 export const StatusType = {
   debug: 'debug',

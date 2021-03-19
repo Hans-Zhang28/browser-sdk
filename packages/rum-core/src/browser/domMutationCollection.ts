@@ -1,4 +1,4 @@
-import { monitor } from '@datadog/browser-core'
+import { monitor } from '@vidyard/browser-core'
 import { LifeCycle, LifeCycleEventType } from '../domain/lifeCycle'
 
 type MutationObserverConstructor = new (callback: MutationCallback) => MutationObserver

@@ -1,4 +1,4 @@
-import { Context, RelativeTime } from '@datadog/browser-core'
+import { Context, RelativeTime } from '@vidyard/browser-core'
 import { RumPerformanceEntry } from '../browser/performanceCollection'
 import { CommonContext, RawRumEvent } from '../rawRumEvent.types'
 import { RumEvent } from '../rumEvent.types'

@@ -1,5 +1,5 @@
-import { defineGlobal, getGlobalObject } from '@datadog/browser-core'
-import { makeRumPublicApi, RumPublicApi, startRum } from '@datadog/browser-rum-core'
+import { defineGlobal, getGlobalObject } from '@vidyard/browser-core'
+import { makeRumPublicApi, RumPublicApi, startRum } from '@vidyard/browser-rum-core'
 
 export const datadogRum = makeRumPublicApi(startRum)
 

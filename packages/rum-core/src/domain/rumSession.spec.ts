@@ -7,7 +7,7 @@ import {
   SESSION_COOKIE_NAME,
   setCookie,
   stopSessionManagement,
-} from '@datadog/browser-core'
+} from '@vidyard/browser-core'
 
 import { LifeCycle, LifeCycleEventType } from './lifeCycle'
 import { RUM_SESSION_KEY, RumTrackingType, startRumSession } from './rumSession'

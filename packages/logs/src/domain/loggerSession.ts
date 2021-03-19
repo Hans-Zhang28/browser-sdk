@@ -1,4 +1,4 @@
-import { Configuration, performDraw, startSessionManagement } from '@datadog/browser-core'
+import { Configuration, performDraw, startSessionManagement } from '@vidyard/browser-core'
 
 export const LOGGER_SESSION_KEY = 'logs'
 

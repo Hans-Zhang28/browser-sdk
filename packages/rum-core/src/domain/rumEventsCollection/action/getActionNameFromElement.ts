@@ -1,4 +1,4 @@
-import { safeTruncate } from '@datadog/browser-core'
+import { safeTruncate } from '@vidyard/browser-core'
 
 export function getActionNameFromElement(element: Element): string {
   // Proceed to get the action name in two steps:

@@ -1,5 +1,5 @@
-import { addEventListener, DOM_EVENT, EventEmitter, monitor } from '@datadog/browser-core'
-import { LifeCycle, LifeCycleEventType, ParentContexts, RumSession } from '@datadog/browser-rum-core'
+import { addEventListener, DOM_EVENT, EventEmitter, monitor } from '@vidyard/browser-core'
+import { LifeCycle, LifeCycleEventType, ParentContexts, RumSession } from '@vidyard/browser-rum-core'
 import { SEND_BEACON_BYTE_LENGTH_LIMIT } from '../transport/send'
 import { CreationReason, Record, SegmentContext, SegmentMeta } from '../types'
 import { DeflateSegmentWriter } from './deflateSegmentWriter'

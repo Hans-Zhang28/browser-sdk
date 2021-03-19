@@ -9,7 +9,7 @@ import {
   startXhrProxy,
   XhrCompleteContext,
   XhrStartContext,
-} from '@datadog/browser-core'
+} from '@vidyard/browser-core'
 import { LifeCycle, LifeCycleEventType } from './lifeCycle'
 import { isAllowedRequestUrl } from './rumEventsCollection/resource/resourceUtils'
 import { startTracer, TraceIdentifier, Tracer } from './tracing/tracer'

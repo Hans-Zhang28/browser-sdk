@@ -1,5 +1,5 @@
-import { datadogLogs, LogsUserConfiguration } from '@datadog/browser-logs'
-import { datadogRum, RumUserConfiguration } from '@datadog/browser-rum-recorder'
+import { datadogLogs, LogsUserConfiguration } from '@vidyard/browser-logs'
+import { datadogRum, RumUserConfiguration } from '@vidyard/browser-rum-recorder'
 
 declare global {
   interface Window {

@@ -1,4 +1,4 @@
-import { noop, setDebugMode } from '@datadog/browser-core'
+import { noop, setDebugMode } from '@vidyard/browser-core'
 
 import { MockWorker } from '../../test/utils'
 import { SegmentMeta } from '../types'

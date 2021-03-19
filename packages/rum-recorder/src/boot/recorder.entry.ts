@@ -1,5 +1,5 @@
-import { defineGlobal, getGlobalObject } from '@datadog/browser-core'
-import { RumPublicApi, startRum } from '@datadog/browser-rum-core'
+import { defineGlobal, getGlobalObject } from '@vidyard/browser-core'
+import { RumPublicApi, startRum } from '@vidyard/browser-rum-core'
 
 import { startRecording } from './recorder'
 import { makeRumRecorderPublicApi } from './rumRecorderPublicApi'

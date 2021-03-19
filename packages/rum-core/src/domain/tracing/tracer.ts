@@ -1,4 +1,4 @@
-import { Configuration, getOrigin, objectEntries } from '@datadog/browser-core'
+import { Configuration, getOrigin, objectEntries } from '@vidyard/browser-core'
 import {
   RumFetchCompleteContext,
   RumFetchStartContext,

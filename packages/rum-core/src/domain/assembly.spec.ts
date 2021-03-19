@@ -1,4 +1,4 @@
-import { DEFAULT_CONFIGURATION, noop, RelativeTime } from '@datadog/browser-core'
+import { DEFAULT_CONFIGURATION, noop, RelativeTime } from '@vidyard/browser-core'
 import { createRawRumEvent } from '../../test/fixtures'
 import { setup, TestSetupBuilder } from '../../test/specHelper'
 import { CommonContext, RumEventType } from '../rawRumEvent.types'

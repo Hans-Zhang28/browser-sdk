@@ -1,4 +1,4 @@
-import { Context, Duration, ErrorSource, ResourceType, ServerDuration, TimeStamp } from '@datadog/browser-core'
+import { Context, Duration, ErrorSource, ResourceType, ServerDuration, TimeStamp } from '@vidyard/browser-core'
 
 export enum RumEventType {
   ACTION = 'action',

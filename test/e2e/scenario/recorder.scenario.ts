@@ -1,7 +1,7 @@
-import { CreationReason, IncrementalSource, Segment } from '@datadog/browser-rum-recorder/cjs/types'
-import { InputData, StyleSheetRuleData } from '@datadog/browser-rum-recorder/cjs/domain/rrweb/types'
+import { CreationReason, IncrementalSource, Segment } from '@vidyard/browser-rum-recorder/cjs/types'
+import { InputData, StyleSheetRuleData } from '@vidyard/browser-rum-recorder/cjs/domain/rrweb/types'
 
-import { NodeType } from '@datadog/browser-rum-recorder/cjs/domain/rrweb-snapshot'
+import { NodeType } from '@vidyard/browser-rum-recorder/cjs/domain/rrweb-snapshot'
 import { createTest, bundleSetup, html } from '../lib/framework'
 import { browserExecute } from '../lib/helpers/browser'
 import { flushEvents } from '../lib/helpers/sdk'

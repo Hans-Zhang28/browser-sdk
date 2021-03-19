@@ -1,4 +1,4 @@
-import { RelativeTime } from '@datadog/browser-core'
+import { RelativeTime } from '@vidyard/browser-core'
 import { ErrorSource, RawError } from '../tools/error'
 import { Observable } from '../tools/observable'
 import { FetchStub, FetchStubManager, isIE, SPEC_ENDPOINTS, stubFetch } from '../tools/specHelper'

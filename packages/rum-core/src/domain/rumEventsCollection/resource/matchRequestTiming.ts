@@ -1,4 +1,4 @@
-import { Duration, RelativeTime } from '@datadog/browser-core'
+import { Duration, RelativeTime } from '@vidyard/browser-core'
 import { RumPerformanceResourceTiming } from '../../../browser/performanceCollection'
 import { RequestCompleteEvent } from '../../requestCollection'
 import { toValidEntry } from './resourceUtils'

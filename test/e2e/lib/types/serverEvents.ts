@@ -1,5 +1,5 @@
-import { RumActionEvent, RumErrorEvent, RumEvent, RumResourceEvent, RumViewEvent } from '@datadog/browser-rum'
-import { Segment } from '@datadog/browser-rum-recorder/cjs/types'
+import { RumActionEvent, RumErrorEvent, RumEvent, RumResourceEvent, RumViewEvent } from '@vidyard/browser-rum'
+import { Segment } from '@vidyard/browser-rum-recorder/cjs/types'
 
 export interface ServerInternalMonitoringMessage {
   message: string

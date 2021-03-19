@@ -1,4 +1,4 @@
-import { catchUserErrors, combine, commonInit, Configuration } from '@datadog/browser-core'
+import { catchUserErrors, combine, commonInit, Configuration } from '@vidyard/browser-core'
 import { startDOMMutationCollection } from '../browser/domMutationCollection'
 import { startPerformanceCollection } from '../browser/performanceCollection'
 import { startRumAssembly } from '../domain/assembly'

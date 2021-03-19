@@ -1,4 +1,4 @@
-import { createNewEvent, isIE } from '@datadog/browser-core'
+import { createNewEvent, isIE } from '@vidyard/browser-core'
 import { collectAsyncCalls } from '../../../test/utils'
 import {
   RecordType,

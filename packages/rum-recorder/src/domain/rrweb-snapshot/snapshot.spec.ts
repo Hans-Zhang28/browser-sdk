@@ -1,5 +1,5 @@
 /* eslint-disable max-len */
-import { isIE } from '@datadog/browser-core'
+import { isIE } from '@vidyard/browser-core'
 import { absoluteToStylesheet, IGNORED_NODE, serializeNodeWithId } from './snapshot'
 
 describe('absolute url to stylesheet', () => {

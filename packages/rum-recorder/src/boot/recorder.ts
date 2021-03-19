@@ -1,5 +1,5 @@
-import { Configuration, DOM_EVENT, addEventListeners } from '@datadog/browser-core'
-import { LifeCycle, LifeCycleEventType, ParentContexts, RumSession } from '@datadog/browser-rum-core'
+import { Configuration, DOM_EVENT, addEventListeners } from '@vidyard/browser-core'
+import { LifeCycle, LifeCycleEventType, ParentContexts, RumSession } from '@vidyard/browser-rum-core'
 
 import { record } from '../domain/rrweb'
 import { startSegmentCollection } from '../domain/segmentCollection'

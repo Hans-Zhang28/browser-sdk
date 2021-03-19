@@ -1,4 +1,4 @@
-import { Configuration, DEFAULT_CONFIGURATION, isIE, objectEntries } from '@datadog/browser-core'
+import { Configuration, DEFAULT_CONFIGURATION, isIE, objectEntries } from '@vidyard/browser-core'
 import { setup, TestSetupBuilder } from '../../../test/specHelper'
 import {
   RumFetchCompleteContext,

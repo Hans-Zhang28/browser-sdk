@@ -1,4 +1,4 @@
-import { Context, objectValues } from '@datadog/browser-core'
+import { Context, objectValues } from '@vidyard/browser-core'
 import { RumEvent } from '../../../rum/src'
 import { RumEventType } from '../rawRumEvent.types'
 import { LifeCycle, LifeCycleEventType } from './lifeCycle'

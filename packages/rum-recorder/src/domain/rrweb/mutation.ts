@@ -1,4 +1,4 @@
-import { monitor } from '@datadog/browser-core'
+import { monitor } from '@vidyard/browser-core'
 import { IGNORED_NODE, INode, serializeNodeWithId, transformAttribute } from '../rrweb-snapshot'
 import { nodeOrAncestorsShouldBeHidden } from '../privacy'
 import {

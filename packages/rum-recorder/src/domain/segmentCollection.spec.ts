@@ -1,5 +1,5 @@
-import { createNewEvent, DOM_EVENT, restorePageVisibility, setPageVisibility } from '@datadog/browser-core'
-import { LifeCycle, LifeCycleEventType, ParentContexts, RumSession, ViewContext } from '@datadog/browser-rum-core'
+import { createNewEvent, DOM_EVENT, restorePageVisibility, setPageVisibility } from '@vidyard/browser-core'
+import { LifeCycle, LifeCycleEventType, ParentContexts, RumSession, ViewContext } from '@vidyard/browser-rum-core'
 import { Record, RecordType, SegmentContext, SegmentMeta } from '../types'
 import { MockWorker } from '../../test/utils'
 import { SEND_BEACON_BYTE_LENGTH_LIMIT } from '../transport/send'

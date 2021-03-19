@@ -1,4 +1,4 @@
-import { combine, Configuration, Context, isEmptyObject, limitModification, timeStampNow } from '@datadog/browser-core'
+import { combine, Configuration, Context, isEmptyObject, limitModification, timeStampNow } from '@vidyard/browser-core'
 import {
   CommonContext,
   RawRumErrorEvent,

@@ -5,7 +5,7 @@ import {
   mapValues,
   ServerDuration,
   toServerDuration,
-} from '@datadog/browser-core'
+} from '@vidyard/browser-core'
 import { NewLocationListener } from '../../../boot/rum'
 import { RawRumViewEvent, RumEventType } from '../../../rawRumEvent.types'
 import { LifeCycle, LifeCycleEventType } from '../../lifeCycle'

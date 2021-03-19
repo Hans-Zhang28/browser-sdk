@@ -10,7 +10,7 @@ import {
   relativeNow,
   RelativeTime,
   throttle,
-} from '@datadog/browser-core'
+} from '@vidyard/browser-core'
 import { NewLocationListener } from '../../../boot/rum'
 
 import { supportPerformanceTimingEvent } from '../../../browser/performanceCollection'

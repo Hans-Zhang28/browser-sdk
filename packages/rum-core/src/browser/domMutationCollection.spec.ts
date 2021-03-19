@@ -1,4 +1,4 @@
-import { isIE } from '@datadog/browser-core'
+import { isIE } from '@vidyard/browser-core'
 import { LifeCycle, LifeCycleEventType } from '../domain/lifeCycle'
 import { startDOMMutationCollection } from './domMutationCollection'
 

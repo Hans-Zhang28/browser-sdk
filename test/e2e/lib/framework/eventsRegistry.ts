@@ -1,5 +1,5 @@
-import { LogsEvent } from '@datadog/browser-logs'
-import { RumEvent } from '@datadog/browser-rum'
+import { LogsEvent } from '@vidyard/browser-logs'
+import { RumEvent } from '@vidyard/browser-rum'
 import {
   isRumErrorEvent,
   isRumResourceEvent,

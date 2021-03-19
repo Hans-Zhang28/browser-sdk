@@ -1,4 +1,4 @@
-import { noop } from '@datadog/browser-core'
+import { noop } from '@vidyard/browser-core'
 import { RumEventType } from '../rawRumEvent.types'
 import { LifeCycle, LifeCycleEventType } from './lifeCycle'
 

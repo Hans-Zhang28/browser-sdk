@@ -5,7 +5,7 @@ import {
   RelativeTime,
   ServerDuration,
   SPEC_ENDPOINTS,
-} from '@datadog/browser-core'
+} from '@vidyard/browser-core'
 import { RumPerformanceResourceTiming } from '../../../browser/performanceCollection'
 import {
   computePerformanceResourceDetails,

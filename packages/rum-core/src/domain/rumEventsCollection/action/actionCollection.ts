@@ -1,4 +1,4 @@
-import { combine, Configuration, getTimeStamp, toServerDuration } from '@datadog/browser-core'
+import { combine, Configuration, getTimeStamp, toServerDuration } from '@vidyard/browser-core'
 import { ActionType, CommonContext, RumEventType } from '../../../rawRumEvent.types'
 import { LifeCycle, LifeCycleEventType } from '../../lifeCycle'
 import { AutoAction, CustomAction, trackActions } from './trackActions'

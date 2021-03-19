@@ -1,4 +1,4 @@
-import { RumResourceEvent } from '@datadog/browser-rum'
+import { RumResourceEvent } from '@vidyard/browser-rum'
 import { createTest, html } from '../../lib/framework'
 import { sendXhr } from '../../lib/helpers/browser'
 import { flushEvents } from '../../lib/helpers/sdk'

@@ -1,4 +1,4 @@
-import { ErrorSource, ONE_SECOND, RelativeTime } from '@datadog/browser-core'
+import { ErrorSource, ONE_SECOND, RelativeTime } from '@vidyard/browser-core'
 import { setup, TestSetupBuilder } from '../../test/specHelper'
 import { ActionType } from '../rawRumEvent.types'
 import { makeRumPublicApi, RumPublicApi, RumUserConfiguration, StartRum } from './rumPublicApi'

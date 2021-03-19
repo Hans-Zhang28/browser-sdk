@@ -1,4 +1,4 @@
-import { Duration, RelativeTime, ServerDuration } from '@datadog/browser-core'
+import { Duration, RelativeTime, ServerDuration } from '@vidyard/browser-core'
 import { setup, TestSetupBuilder } from '../../../../test/specHelper'
 import { RumPerformanceEntry } from '../../../browser/performanceCollection'
 import { RumEventType } from '../../../rawRumEvent.types'

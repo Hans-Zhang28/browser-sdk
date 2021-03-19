@@ -1,5 +1,5 @@
-import { createNewEvent, HttpRequest, isIE } from '@datadog/browser-core'
-import { LifeCycle, LifeCycleEventType } from '@datadog/browser-rum-core'
+import { createNewEvent, HttpRequest, isIE } from '@vidyard/browser-core'
+import { LifeCycle, LifeCycleEventType } from '@vidyard/browser-rum-core'
 import { inflate } from 'pako'
 
 import { setup, TestSetupBuilder } from '../../../rum-core/test/specHelper'

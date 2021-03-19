@@ -5,7 +5,7 @@ import {
   RelativeTime,
   restorePageVisibility,
   setPageVisibility,
-} from '@datadog/browser-core'
+} from '@vidyard/browser-core'
 import { setup, TestSetupBuilder } from '../../../../test/specHelper'
 import {
   RumFirstInputTiming,

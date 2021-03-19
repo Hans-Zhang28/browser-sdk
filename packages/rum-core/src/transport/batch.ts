@@ -1,4 +1,4 @@
-import { Batch, combine, Configuration, Context, HttpRequest } from '@datadog/browser-core'
+import { Batch, combine, Configuration, Context, HttpRequest } from '@vidyard/browser-core'
 import { LifeCycle, LifeCycleEventType } from '../domain/lifeCycle'
 import { RumEventType } from '../rawRumEvent.types'
 import { RumEvent } from '../rumEvent.types'

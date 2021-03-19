@@ -1,4 +1,4 @@
-import { Duration, RelativeTime } from '@datadog/browser-core'
+import { Duration, RelativeTime } from '@vidyard/browser-core'
 import { setup, TestSetupBuilder } from '../../test/specHelper'
 import { LifeCycleEventType } from './lifeCycle'
 import {

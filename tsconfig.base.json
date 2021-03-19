@@ -20,8 +20,8 @@
     ],
 
     "paths": {
-      "@datadog/browser-core": ["./packages/core/src"],
-      "@datadog/browser-rum-core": ["./packages/rum-core/src"]
+      "@vidyard/browser-core": ["./packages/core/src"],
+      "@vidyard/browser-rum-core": ["./packages/rum-core/src"]
     }
   }
 }

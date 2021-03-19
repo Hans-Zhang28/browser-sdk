@@ -28,10 +28,10 @@ To set up Datadog RUM browser monitoring:
 
 ### npm
 
-Add [`@datadog/browser-rum`][4] to your `package.json` file, then initialize it with:
+Add [`@vidyard/browser-rum`][4] to your `package.json` file, then initialize it with:
 
 ```javascript
-import { datadogRum } from '@datadog/browser-rum'
+import { datadogRum } from '@vidyard/browser-rum'
 
 datadogRum.init({
   applicationId: '<DATADOG_APPLICATION_ID>',
@@ -110,7 +110,7 @@ Add the generated code snippet to the head tag (in front of any other script tag
 Types are compatible with TypeScript >= 3.0. For earlier versions, import JS sources and use global variables to avoid any compilation issues:
 
 ```javascript
-import '@datadog/browser-rum/bundle/datadog-rum'
+import '@vidyard/browser-rum/bundle/datadog-rum'
 
 window.DD_RUM.init({
   applicationId: 'XXX',
@@ -173,7 +173,7 @@ init(configuration: {
 [1]: https://app.datadoghq.com/rum/list
 [2]: https://docs.datadoghq.com/real_user_monitoring/data_collected/
 [3]: https://docs.datadoghq.com/real_user_monitoring/dashboards/
-[4]: https://www.npmjs.com/package/@datadog/browser-rum
+[4]: https://www.npmjs.com/package/@vidyard/browser-rum
 [5]: https://docs.datadoghq.com/account_management/api-app-keys/#client-tokens
 [6]: https://docs.datadoghq.com/real_user_monitoring/data_collected/user_action/#automatic-collection-of-user-actions
 [7]: https://docs.datadoghq.com/real_user_monitoring/faq/proxy_rum_data/

@@ -29,10 +29,10 @@ With the browser logs SDK, you can send logs directly to Datadog from JS clients
 
 ### NPM
 
-After adding [`@datadog/browser-logs`][3] to your `package.json` file, initialize it with:
+After adding [`@vidyard/browser-logs`][3] to your `package.json` file, initialize it with:
 
 ```javascript
-import { datadogLogs } from '@datadog/browser-logs'
+import { datadogLogs } from '@vidyard/browser-logs'
 
 datadogLogs.init({
   clientToken: '<DATADOG_CLIENT_TOKEN>',
@@ -101,7 +101,7 @@ To receive all logs and errors, load and configure the SDK at the beginning of t
 Types are compatible with TypeScript >= 3.0. For earlier versions, import JS sources and use global variables to avoid any compilation issues:
 
 ```typescript
-import '@datadog/browser-logs/bundle/datadog-logs'
+import '@vidyard/browser-logs/bundle/datadog-logs'
 
 window.DD_LOGS.init({
   clientToken: '<CLIENT_TOKEN>',
@@ -149,7 +149,7 @@ logger.debug | info | warn | error (message: string, messageContext = Context)
 #### NPM
 
 ```javascript
-import { datadogLogs } from '@datadog/browser-logs'
+import { datadogLogs } from '@vidyard/browser-logs'
 
 datadogLogs.logger.info('Button clicked', { name: 'buttonName', id: 123 })
 ```
@@ -211,7 +211,7 @@ log (message: string, messageContext: Context, status? = 'debug' | 'info' | 'war
 For NPM, use:
 
 ```javascript
-import { datadogLogs } from '@datadog/browser-logs';
+import { datadogLogs } from '@vidyard/browser-logs';
 
 datadogLogs.logger.log(<MESSAGE>,<JSON_ATTRIBUTES>,<STATUS>);
 ```
@@ -259,7 +259,7 @@ For example, to redact email addresses from your web application URLs:
 #### NPM
 
 ```javascript
-import { datadogLogs } from '@datadog/browser-logs'
+import { datadogLogs } from '@vidyard/browser-logs'
 
 datadogLogs.init({
     ...,
@@ -343,7 +343,7 @@ getLogger(name: string)
 For example, assume there is a `signupLogger`, defined with all the other loggers:
 
 ```javascript
-import { datadogLogs } from '@datadog/browser-logs'
+import { datadogLogs } from '@vidyard/browser-logs'
 
 datadogLogs.createLogger('signupLogger', 'info', 'http', { env: 'staging' })
 ```
@@ -351,7 +351,7 @@ datadogLogs.createLogger('signupLogger', 'info', 'http', { env: 'staging' })
 It can now be used in a different part of the code with:
 
 ```javascript
-import { datadogLogs } from '@datadog/browser-logs'
+import { datadogLogs } from '@vidyard/browser-logs'
 
 const signupLogger = datadogLogs.getLogger('signupLogger')
 signupLogger.info('Test sign up completed')
@@ -414,7 +414,7 @@ After the Datadog browser logs SDK is initialized, it is possible to:
 For NPM, use:
 
 ```javascript
-import { datadogLogs } from '@datadog/browser-logs'
+import { datadogLogs } from '@vidyard/browser-logs'
 
 datadogLogs.setLoggerGlobalContext({ env: 'staging' })
 
@@ -469,7 +469,7 @@ After a logger is created, it is possible to:
 For NPM, use:
 
 ```javascript
-import { datadogLogs } from '@datadog/browser-logs'
+import { datadogLogs } from '@vidyard/browser-logs'
 
 datadogLogs.setContext("{'env': 'staging'}")
 
@@ -519,7 +519,7 @@ Only logs with a status equal to or higher than the specified level are sent.
 For NPM, use:
 
 ```javascript
-import { datadogLogs } from '@datadog/browser-logs'
+import { datadogLogs } from '@vidyard/browser-logs'
 
 datadogLogs.logger.setLevel('<LEVEL>')
 ```
@@ -559,7 +559,7 @@ setHandler (handler?: 'http' | 'console' | 'silent')
 For NPM, use:
 
 ```javascript
-import { datadogLogs } from '@datadog/browser-logs'
+import { datadogLogs } from '@vidyard/browser-logs'
 
 datadogLogs.logger.setHandler('<HANDLER>')
 ```
@@ -588,6 +588,6 @@ window.DD_LOGS && DD_LOGS.logger.setHandler('<HANDLER>')
 
 [1]: /account_management/api-app-keys/#api-keys
 [2]: /account_management/api-app-keys/#client-tokens
-[3]: https://www.npmjs.com/package/@datadog/browser-logs
+[3]: https://www.npmjs.com/package/@vidyard/browser-logs
 [4]: https://github.com/DataDog/browser-sdk/blob/master/packages/logs/BROWSER_SUPPORT.md
 [5]: https://github.com/DataDog/browser-sdk/blob/master/packages/logs/src/logsEvent.types.ts
